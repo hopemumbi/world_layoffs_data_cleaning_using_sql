@@ -42,7 +42,11 @@ USE `world_layoffs`;
 
 ### Step 2: Import the Raw Data
 
-Use the MySQL import wizard or your preferred method to import the raw layoffs dataset into a table. After importing, you can create a staging table to keep the original data intact.
+1. In the **Navigator** pane, right-click on the **Tables** section under the **world_layoffs** database.
+2. Choose **Table Data Import Wizard** and follow the prompts to import the CSV file into the **`layoffs`** table.
+
+After importing, you can create a staging table to keep the original data intact.
+
 
 ```sql
 CREATE TABLE layoffs_staging LIKE layoffs;
