@@ -21,8 +21,13 @@ The dataset used in this project contains information about layoffs across vario
 
 ## Prerequisites
 
-- **SQL Database**: MySQL or MariaDB is recommended for running the SQL queries provided in this repository.
-- **Data Import Wizard**: Use an import wizard or MySQL Workbench to load the dataset into the database.
+To run the SQL queries and complete the data cleaning and exploratory data analysis, you will need the following:
+
+- **MySQL 9.0**: The database management system used for this project.
+- **MySQL Workbench**: A visual tool for database design, development, and administration, which was used for importing and managing the data.
+- **Dataset**: The raw dataset of global company layoffs. You can download the dataset from [here](https://github.com/hopemumbi/world_layoffs_data_analysis_using_sql-/blob/main/layoffs.csv).
+
+Make sure you have both MySQL 9.0 and MySQL Workbench installed and set up on your system.
 
 ## Database Setup
 
