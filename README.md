@@ -17,7 +17,6 @@ The dataset used in this project contains information about layoffs across vario
 - [Database Setup](#database-setup)
 - [Data Cleaning Process](#data-cleaning-process)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
